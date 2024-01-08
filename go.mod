@@ -1,4 +1,4 @@
-module git.betlab.com/dwh/forks/go-kafka-connect/v3
+module github.com/tonkonozhenko/go-kafka-connect/v3
 
 go 1.17
 
