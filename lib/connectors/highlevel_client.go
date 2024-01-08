@@ -67,7 +67,7 @@ func (c *highLevelClient) SetClientCertificates(certs ...tls.Certificate) {
 	c.client.SetClientCertificates(certs...)
 }
 
-func (c *highLevelClient) SetRootCertificates(pemFilePath string) {
+func (c *highLevelClient) SetRootCertificate(pemFilePath string) {
 	c.client.SetRootCertificate(pemFilePath)
 }
 
