@@ -37,6 +37,7 @@ type HighLevelClient interface {
 	SetParallelism(value int)
 	SetBasicAuth(username string, password string)
 	SetHeader(name string, value string)
+	SetRootCertificate(pemFilePath string)
 }
 
 type highLevelClient struct {
